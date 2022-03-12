@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints all single digit numbers
- * Rweturn: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
