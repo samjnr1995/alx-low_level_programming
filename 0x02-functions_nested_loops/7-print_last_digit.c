@@ -5,11 +5,11 @@
  */
 int print_last_digit(int)
 {
-/*Asking for input*/
-_putchar("Enter the digit":);
-scanf("%d", &num);
-digit = num % 10;
-/*Displaying output*/
-printf("Last Digit of %d is: %d", num, digit);
-return 0;
+int r;
+print_last_digit(98);
+print_last_digit(0);
+r = print_last_digit(-1024);
+_putchar('0' + r);
+_putchar('\n');
+return (0);
 }
