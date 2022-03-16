@@ -5,7 +5,7 @@
  */
 int print_last_digit(int)
 {
-int r;
+int r = 0;
 print_last_digit(98);
 print_last_digit(0);
 r = print_last_digit(-1024);
