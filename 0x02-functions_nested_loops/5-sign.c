@@ -2,7 +2,7 @@
 /**
  * print_sign - print sign
  *
- * Return: void
+ * Return: 1 (if positive), 0 (if zero)
  */
 int print_sign(int n)
 {
