@@ -1,18 +1,18 @@
 #include "main.h"
 /**
  * main - check the code
- * Return Always 0
+ * Return: void
  */
 void print_alphabet(void);
 {
-int ch = 'a';
-for (ch = 'a'; ch <= 'z'; ch++)
-putchar(ch);
-putchar('\n');
+char letter = 'a';
+while (letter <= 'z')
+{	
+_putchar(letter);
+letter++;
 }
-int main(void);
-{
-print_alphabet();
-return (0);
+_putchar('\n');
 }
+
+
 
