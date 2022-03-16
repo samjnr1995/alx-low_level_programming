@@ -5,14 +5,14 @@
  */
 void print_alphabet(void);
 {
-char alphabet;
-alphabet= 'a';
-_putchar("Lowercase alphabets:\n");
-while(alphabet<='z')
-{
-printf("%c ",alphabet);
-alphabet++;
+int ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+putchar(ch);
+putchar('\n');
 }
-return 0;
+int main(void)
+{
+print_alphabet();
+return (0);
 }
 
