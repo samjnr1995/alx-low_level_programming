@@ -1,10 +1,15 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - entry point
- * it prints _putchar
+ * _putchar - it a function to print to output
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-_putchar("_putchar\n");
+char ch
+ch = "_putchar"
+_putchar(ch);
+_putchar('\n');
 return (0);
 }
