@@ -2,13 +2,13 @@
 /**
  *
  * _is supper - A func that checks for uppercase character
- * @c: An input characte
- * Return: 1 if c is uppercase or  otherwise
+ * @c: An input character
+ * Return: 1 if c is uppercase or 0 otherwise
  */
 int _isupper(int c)
 {
 char uppercase = 'A';
-int iaupper = 0;
+int isupper = 0;
 for (; uppercase <= 'Z'; uppercase++)
 {
 if (c == uppercase)
