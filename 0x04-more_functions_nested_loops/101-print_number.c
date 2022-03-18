@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prime_number - prime integer
+ * prime_number - print integer
  * @n: input integer
  * Return: no return
  */
