@@ -18,6 +18,6 @@ printf("Buzz ");
 else
 printf("%d ", i);
 }
-printf("BUzz\n");
+printf("Buzz\n");
 return (0);
 }
