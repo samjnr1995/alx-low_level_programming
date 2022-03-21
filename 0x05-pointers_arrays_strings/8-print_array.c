@@ -3,9 +3,9 @@
 /**
  * print_array -  prints n elements of an array of integers with a new line
  * @a: input array.
- * @n input n elements
+ * @n input n elements where n is the number of elements of the array to be printed
  * Return: no return.
- */
+ */ 
 void print_array(int *a, int n)
 {
 int i = 0;
