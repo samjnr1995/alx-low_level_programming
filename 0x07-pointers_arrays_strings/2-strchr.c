@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strch - prints found c
- * @s: pointer to char 
- * @c: char params to found 
+ * _strchr - prints found c
+ * @s: pointer to char
+ * @c: char params to found
  * Return: *s
  */
 char *_strchr(char *s, char c)
