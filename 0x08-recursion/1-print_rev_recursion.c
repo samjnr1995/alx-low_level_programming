@@ -4,7 +4,7 @@
  * @s: pointer to a string params
  *
  */
-void _print_rev_recursion(cha *s)
+void _print_rev_recursion(char *s)
 {
 if (*s)
 {
