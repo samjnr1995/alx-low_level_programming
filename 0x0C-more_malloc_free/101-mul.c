@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - multiplies two positive numbers
- * @argc: n arguments
- * @argv: args
- * Return: int
+ * main - multiplies two positive numbers and print result
+ * @argc: input count of args
+ * @argv: input array of string args
+ * Return: 0, success
  */
 int main(int argc, char *argv[])
 {
